@@ -1,6 +1,8 @@
 body {}
 
-h1 {}
+h1 {
+    color: #1a365d;
+}
 
 p {
     padding: 0;
@@ -27,6 +29,18 @@ aside img {
 main img {
     width: 150px;
     height: auto;
+}
+
+nav {
+    background-color: #1a365d;
+    padding: 10px;
+}
+
+nav a {
+    color: #eee;
+    padding: 10px 15px;
+    display: block;
+    text-decoration: none;
 }
 
 footer {
