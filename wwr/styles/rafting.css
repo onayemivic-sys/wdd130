@@ -160,3 +160,85 @@ nav a {
     text-align: left;
     margin-top: 5px;
 }
+
+.contact-info {
+    max-width: 840px;
+    margin: 2rem auto;
+    padding: 1rem;
+}
+
+.contact-info iframe {
+    display: block;
+    margin-top: 1rem;
+    border: none;
+}
+
+.employees {
+    max-width: 840px;
+    margin: 2rem auto;
+    padding: 1rem;
+}
+
+.employees-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.employees-grid figure {
+    flex: 1;
+    margin: 0;
+    text-align: center;
+}
+
+.employees-grid img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+}
+
+.employees-grid figcaption {
+    margin-top: 0.5rem;
+    font-weight: bold;
+}
+
+.contact-form {
+    max-width: 700px;
+    margin: 2rem auto;
+    padding: 1rem;
+}
+
+.contact-form form {
+    display: grid;
+    gap: 1rem;
+}
+
+.contact-form fieldset {
+    display: grid;
+    gap: 0.75rem;
+    padding: 1rem;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 0.7rem;
+    box-sizing: border-box;
+}
+
+.contact-form textarea {
+    resize: vertical;
+}
+
+.contact-form button {
+    width: fit-content;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: var(--primary-color);
+    color: #e0f2f1;
+    border: none;
+    border-radius: 4px;
+}
