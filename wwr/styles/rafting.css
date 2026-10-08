@@ -16,7 +16,8 @@
 
 body {
     font-family: var(--body-font);
-    color: var(--accent1-color);
+    background-color: navy;
+    color: #f8fafc;
 }
 
 header,
@@ -45,6 +46,8 @@ header {
     grid-template-columns: 120px 1fr;
     align-items: center;
     padding: 10px 20px;
+    background-color: indigo;
+    color: #f8fafc;
 }
 
 header img {
@@ -56,12 +59,14 @@ nav {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    color: #f8fafc
 }
 
 nav a {
     margin: 0 10px;
     text-decoration: none;
     font-weight: bold;
+    color: var(--secondary-color);
 }
 
 .hero {
@@ -366,6 +371,7 @@ nav a {
     padding: 30px;
     margin: 20px 16px;
     background-color: var(--accent2-color);
+    color: #000;
 }
 
 .trips-hero h1 {
@@ -455,34 +461,18 @@ nav a {
     border-radius: 4px;
 }
 
-body {
-    background-color: navy;
-    color: #f8fafc;
-}
-
-header {
-    background-color: indigo;
-    color: #f8fafc;
-    text-decoration-color: #e0f2f1;
-}
-
 footer {
     background-color: navy;
     color: #f8fafc;
 }
 
+footer a {
+    color: var(--secondary-color);
+}
+
 body h1,
 body h2 {
     color: #f8fafc;
-}
-
-nav {
-    color: #f8fafc
-}
-
-.trips-hero {
-    background-color: var(--accent2-color);
-    color: #000;
 }
 
 .trips-hero h2,
