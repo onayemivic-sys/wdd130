@@ -4,55 +4,102 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Victor Onayemi | WDD 130</title>
     <meta name="description"
-      content="Victor's WDD130 home page enhancement practical for BYU I WEB DEV course.">
-    <meta name="author" content="Victor Onayemi">
-    <link rel="stylesheet" href="styles/styles.css">
+      content="Experience exciting white water rafting adventures with O.A.V Rush Rafting. Explore our adventure and plan your next outdoor experience.">
+    <meta name="author" content="Onayemi Aduragbemi Victor">
+    <title>Home page | O.A.V Rush Rafting</title>
+    <link rel="stylesheet" href="styles/rafting.css">
 </head>
 
 <body>
     <header>
-        <div>
-            <nav>
-                <a href="#">Home</a>
-                <a href="about.html"> Rafting Website</a>
-                <a href="https://linkedin.com">Linkedin</a>
-                <a href="https://facebook.com">Facebook</a>
-            </nav>
+        <img src="images/logo.png" alt="O.A.V Rush Rafting">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
     </header>
     <main>
-        <h1>Victor Onayemi | WDD 130</h1>
-        <img src="image/profile_photo.jpg" alt="Victor Onayemi profile picture" class="profile"
-          width="1000" height="800">
-        <p>Welcome! My name is Victor Onayemi,from West Africa,I am Yoruba by tribe, from Ogun
-            state. I come from a family of 4 two children and my parents,a membeer of the church of
-            Jesus Christ of Latter Days Saints,the YSA male rep of my ward, and I am a student of
-            Brigham Young University, BYU Idaho,this is my first assignment in WDD 130, and my first
-            try at creating a webpage.
-            Thank you for visiting!</p>
-        <ul class="box">
-            <li><a href="https://www.churchofjesuschrist.org/temples/details/aba-nigeria-temple?lang=eng"
-                  target="_blank">Aba Nigeria Temple</a></li>
-            <li><a href="https://www.churchofjesuschrist.org/temples/details/salt-lake-temple?lang=eng"
-                  target="_blank">Salt Lake Temple</a></li>
-            <li><a href="https://www.churchofjesuschrist.org/temples/details/accra-ghana-temple?lang=eng"
-                  target="_blank">Accra Ghana Temple</a></li>
+        <!--Hero section-->
+        <section class="home-hero">
+            <img src="images/hero.jpg" alt=" People enjoying a white water rafting adventure">
 
-        </ul>
+            <div class="hero-message">
+                <img src="images/hero.jpg" alt=" People enjoying a white water rafting adventure">
+                <h1>Adventure Awaits You!</h1>
+
+                <p>
+                    Experience the excitement of white water rafting with O.A.V Rush Rafting.
+                </p>
+                <a href="trips.html">Explore our Trips</a>
+            </div>
+            <!--INTRODUCTION-->
+            <section class="home-intro">
+                <div>
+                    <h2>Experience the Rush</h2>
+
+                    <p>
+                        At O.A.V Rush Rafting we create exciting outdoor experience for adventures
+                        of all kinds. Our goal is to provide memorable rafting adventures while
+                        keeping our guest connected with nature.
+                    </p>
+                </div>
+                <img src="images/rafting-1.jpeg" alt="Rafting  group enjoying the rapids">
+            </section>
+            <!--PURPOSE AND OFFERING-->
+            <section class="home-offering">
+                <div>
+                    <img src="images/rafting-2.jpeg" alt="Rafting group navigating white water">
+
+                    <h2>Our Purpose</h2>
+                    <p>
+                        We want to help people explore and experience the beauty and excitement of
+                        the outdoors while creating memories with friends and family.
+                    </p>
+                </div>
+                <div>
+                    <img src="images/rafting-3.jpeg" alt="People enjoying a rafting adventure">
+                    <h2>Our Adventures</h2>
+                    <p>From exciting rapids to relaxing outdoor experiences, our rafting trips offer
+                        different adventures for people looking for something memorable.
+                    </p>
+                </div>
+            </section>
+
+            <!--NEWSLETTER-->
+            <section class="newsletter">
+                <h2>Join Our newsletter</h2>
+                <p>
+                    Sign up to receive news about upcoming rafting adventures and special offers.
+                </p>
+                <form>
+                    <label for="newsletter-name">Name:</label>
+                    <input type="text" id="newsletter-name" name="name" required>
+                    <label for="newsletter-email">Email:</label>
+                    <input type="email" id="newsletter-email" name="email" required>
+
+                    <button type="submit">Subscribe</button>
+                </form>
+            </section>
     </main>
-    <aside class="box">
-        <img src="image/naijacitycentersites.jpg" alt="A representation of Nigeria">
-        <h2>Nigeria</h2>
-        <p>
-            Nigeria a beautiful country in the coast of west Africa known for its diverse
-            cultures,languages,food,music,art and natural landscapes. It is one of the most populous
-            countries in Africa.
-        </p>
-    </aside>
-    </div>
+
     <footer>
-        <p>&copy; 2026 Victor Onayemi. All rights reserved.</p>
+        <p>
+            &copy; 2026 O.A.V Rush Rafting | Onayemi Aduragbemi Victor
+        </p>
+        <nav class="socialmedia">
+            <a href="https://facebook.com">
+                <img src="images/facebook.png" alt="visit our facebook page">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/instagram.png" alt="follow us on instagram">
+            </a>
+            <a href="https://linkedin.com">
+                <img src="images/linkedin.jpg" alt="connect with us on linkedin">
+            </a>
+        </nav>
     </footer>
 </body>
 
